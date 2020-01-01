@@ -7,12 +7,10 @@
     <body>
     
         <div id="app">
-            <ol>
-            <li v-for="todo in todos">
-                {{ todo.text }}
-            </li>
-            </ol>           
-
+            <p>{{message}}</p>
+            <!-- reverseMessageメソッッド -->
+            <button v-on:click="reverseMessage">Reverse Messages</button>
+            
             
         </div>
 
