@@ -1,6 +1,8 @@
 var app= new Vue({
     el: '#app',
     data: {
-        seen:True
+        seen: true
     }
 });
+
+// app.seen= false
