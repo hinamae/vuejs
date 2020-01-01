@@ -1,8 +1,13 @@
 var app= new Vue({
     el: '#app',
     data: {
-        seen: true
+        todos:[
+        { text: 'Learn Javascript'},
+        { text: 'Learn Vue'},
+        { text: 'Build something awsome'}
+        ]
+   
     }
 });
 
-// app.seen= false
+app.todos.push({ text: 'new item'});
